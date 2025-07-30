@@ -4,51 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="w-[100%]">
-      <div class="container-header">
-        <img src="./Assets/logo.png" alt="Digital Store">
-        <input type="text" placeholder="Pesquisar produtos">
-        <a href="#">Cadastre-se</a>
-        <button type="text">Entrar</button>
-        <img src="./Assets/carrinho.png" alt="Carrinho">
-      </div>
-      <div class="navigator">
-        <nav>
-              <ul class="flex gap-6">
-                <li>
-                  <a
-                    href="#"
-                    class="navigator-header"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="Pages/produtos.html"
-                    class="navigator-header"
-                    >Produtos</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="navigator-header"
-                    >Categorias</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="navigator-header"
-                    >Meus Pedidos</a
-                  >
-                </li>
-              </ul>
-            </nav>
-      </div>
+    <header class="header">
+        <div>
+            <div class="container-header">
+                <img src="./Assets/logo.png" alt="Digital Store">
+                <input type="text"  alt="Pesquisar produtos" placeholder="Pesquisar produto... " id="input" >
+                <img src="./Assets/Search.png" alt="Lupa">
+                <a id="cadastro" href="#">Cadastre-se</a>	
+                <button id="btn-header" type="text">Entrar</button>
+                <img src="./Assets/carrinho.png" alt="Carrinho" id="carrinho">
+        </div>
+        <div >
+            <nav class="nav">
+                <ul class="navigator">
+                    <li>
+                    <a
+                        href="#"
+                        class="navigator-header"
+                        >Home</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#"
+                        class="navigator-header"
+                        >Produtos</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#"
+                        class="navigator-header"
+                        >Categorias</a
+                    >
+                    </li>
+                    <li>
+                    <a
+                        href="#"
+                        class="navigator-header"
+                        >Meus Pedidos</a
+                    >
+                    </li>
+                </ul>
+                </nav>
+        </div>
+        </div>
     </header>
     <main>
         <section class="section1">
