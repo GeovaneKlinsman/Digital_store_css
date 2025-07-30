@@ -1,10 +1,10 @@
 body {
     width: 1440px;
     font-family: 'Inter', sans-serif;
-    margin: 0 auto;
 
 }
 
+        /*header*/
 .header {
     width: 100%;
 
@@ -71,6 +71,7 @@ body {
 
 .navigator-header {
     color: #474747;
+    font-weight: bold;
     text-decoration: none;
     text-underline-offset: 8px;
     text-decoration-color: #C92071;
@@ -83,4 +84,89 @@ body {
     font-weight: bold;
     text-decoration: underline;
     text-decoration-thickness: 4px; /* Mais grosso no hover */
+    }
+
+        /*SECTION 1*/
+.section1 {
+    background-color: #F5F5F5;
+    padding-bottom: 48px;
+    margin: 12px;
+    height: 681px;
+    
+}
+
+.container-section1 {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding-top: 120px;
+    
+    display: flex;
+    }
+
+#h3 {
+    color: #f6aa1c;
+    font-size: 16px;
+    }
+
+#h2 {
+    color: #1F1F1F;
+    width: 510px;
+    height: 132px;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-weight: 700;
+    margin-top: 24px;
+    }
+
+#p-section1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #474747;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    width: 510px;
+    }
+
+#btn-oferta {
+    background-color: #C92071;
+    width: 220px;
+    height: 48px;
+    margin-top: 24px;
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-img-section1 {
+    display: flex;
+    position: relative;
+    }
+
+.image {
+    display: flex;
+    position: absolute;
+}
+
+#tenis {
+    display: flex;
+    top: -100px;
+}
+
+#fundo {
+    display: flex;
+    top: -50px;
+    left: 720px;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
     }
