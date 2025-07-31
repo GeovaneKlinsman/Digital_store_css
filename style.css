@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family:'Inter',sans-serif;
+  
+}
+
+.bg-gradiente{
+  background: linear-gradient(to bottom right, #B5B6F2, #EFEFFF);
+  min-height: 100vh;
+}
+
+.bg-branco{
+  position: relative;
+  background-color: #F9F8FE;
+  min-height: 100vh;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header a img {
+  position: absolute;
+  left: 100px;
+  top: 25px;
+
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.form-cadastro {
+  position: absolute;
+  left:100px;
+  top: 120px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 4px;
+  width: 583px;
+  height:399px;
+  margin : 20px;
+}
+
+.form-cadastro h2 {
+    font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #1F1F1F;
+}
+
+.form-cadastro p {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.form-cadastro a {
+  color: #444;
+  text-decoration: underline;
+}
+
+.form-cadastro label {
+    display: flex;
+  flex-direction: row;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #474747;
+}
+
+.form-cadastro input {
+  border: none;
+  width: 523px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  background-color: #eeeeee;
+}
+
+.login-box {
+  position: absolute;
+  left:100px;
+  top: 120px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 4px;
+  width: 583px;
+  height:560px;
+  margin : 20px;
+}
+
+.login-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #1F1F1F;
+}
+
+.login-box p {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.login-box a {
+  color: #444;
+  text-decoration: underline;
+}
+
+.login-box label {
+  display: flex;
+  flex-direction: row;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #474747;
+}
+
+.login-box input {
+  border: none;
+  width: 523px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #eeeeee;
+}
+
+.placeholder {
+  width: 404.04px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  color: #666666;
+  line-height: 28px;
+
+}
+
+.esqueci {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  margin-bottom: 30px;
+  color: #474747;
+
+}
+
+.btn-cadastro {
+  width: 523px;
+  height: 48px;
+  background-color:#C92071;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-login {
+  text-align: center;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  
+}
+
+.social-icons p {
+  color: #474747;
+
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.tenis1 {
+  position: absolute;
+  width: 256px;
+  height: 483px;
+  top: 76px;
+  left: 727px;
+  rotate: -165.29;
+}
+
+.tenis2 {
+  position: absolute;
+width: 252px;
+height: 515px;
+top: 249px;
+left: 993px;
+rotate: 159.54;
+}
+
+.criar-conta-h1{
+  position: absolute;
+  top: 150px;
+  left: 344px;
+  height: 46px;
+  width: 440px;
+  font-size: 32px;
+  font-style: bold;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.dados-pessoais {
+  position: absolute;
+  left: 345px;
+  top: 208px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 750px;
+  height: 538px;
+  border-radius: 4px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.dados-pessoais hr {
+  width: 690px;
+  height: 1px;
+  border: 1px;
+  background-color: #cccccc;
+}
+
+.dados-pessoais h2 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: #474747;
+
+}
+
+.dados-pessoais label {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: #474747;
+}
+
+.dados-pessoais input {
+  width: 690px;
+  height: 60px;
+  border-radius: 8px;
+  background-color:#eeeeee;
+}
+
+.dados-entrega {
+  position: absolute;
+  left: 345px;
+  top: 756px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 750px;
+  height: 647px;
+  border-radius: 4px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.dados-entrega hr{
+  width: 690px;
+  height: 1px;
+  border: 1px;
+  background-color: #cccccc;
+}
+
+
+.dados-entrega h2 {
+    font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: #474747
+}
+
+.dados-entrega label {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: #474747;
+}
+
+.dados-entrega input {
+  width: 690px;
+  height: 60px;
+  border-radius: 8px;
+  background-color:#eeeeee;
+}
+
+.checkbox-container {
+  position: absolute;
+  top: 1433px;
+  left: 344px;
+  width: 718px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #474747;
+}
+
+.checkbox-container input {
+  width: 22px;
+  height: 22px;
+}
+
+.checkbox-container input :checked {
+  background-color: #C92071;
+}
+
+.btn-criar-conta {
+  position: absolute;
+  top: 1517px;
+  left: 344px;
+  width: 750px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #C92071;
+  color: white;
+  border-bottom: 153px;
+  border-top: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 454px;
+  background-color: #1F1F1F;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+}
+
+.rodape-col-1 {
+  position: absolute;
+  left: 104px;
+  top: 72px;
+  width: 253px;
+  height: 44px;
+}
+
+.rodape-col-1 p {
+  color: white;
+  width: 307px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.redes-icons {
+  width: 124.12px;
+  height: 20.53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.rodape-informacao {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 72px;
+  left: 612px;
+  width: 135px;
+  height: 278px;
+  color: white;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 600;
+}
+
+.rodape-informacao h3{
+  margin-bottom: 28px;  
+}
+
+.rodape-informacao ul {
+  font-weight: 400;
+  font-size: 14px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 38px;
+  letter-spacing: 0;
+}
+
+.rodape-informacao a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.rodape-categ {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 72px;
+  left: 849px;
+  width: 96px;
+  height: 240px;
+  color: white;
+  border-bottom: 28px;
+  line-height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rodape-categ h3 {
+  margin-bottom: 28px;
+}
+
+.rodape-categ ul {
+  font-weight: 400;
+  font-size: 14px;
+  list-style:none;
+  margin: 5px;
+  line-height: 38px;
+
+}
+
+.rodape-categ a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.rodape-contato {
+  position: absolute;
+  top: 72px;
+  left: 1113px;
+  color: white;
+  width: 233px;
+  height: 168px;
+}
+
+.rodape-contato h3 {
+  width: 71px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 28px;
+}
+
+.rodape-contato p {
+  width: 231px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 100%;
+  
+}
+
+.rodape-infe {
+  position: absolute;
+  justify-content: center;
+  top: 408px;
+  left: 400px;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+
+.rodape-infe a {
+  text-decoration: none;
+  color: inherit;
+}
